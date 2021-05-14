@@ -10,6 +10,6 @@ public class TransporterGroup extends ItemGroup {
 
     @Override
     public ItemStack createIcon() {
-        return new ItemStack(ItemRegistry.transporterBlock.get());
+        return new ItemStack(ItemRegistry.controlPanelBlock.get());
     }
 }

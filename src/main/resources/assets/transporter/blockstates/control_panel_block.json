@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "transporter:block/control_panel_block_model" }
+  }
+}

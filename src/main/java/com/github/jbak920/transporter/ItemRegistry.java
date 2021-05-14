@@ -9,4 +9,5 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Utils.MOD_ID);
     public static final RegistryObject<Item> transporterBlock = ITEMS.register("transporter_block", () -> new BlockItem(BlockRegistry.transporterBlock.get(), new Item.Properties().group(ModGroup.itemGroup)));
+    public static final RegistryObject<Item> controlPanelBlock = ITEMS.register("control_panel_block", () -> new BlockItem(BlockRegistry.controlPanelBlock.get(), new Item.Properties().group(ModGroup.itemGroup)));
 }

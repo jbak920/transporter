@@ -1,0 +1,6 @@
+{
+  "block.transporter.transporter_block": "Transporter Block",
+  "block.transporter.control_panel_block": "Control Panel Block",
+  "itemGroup.transporter_group": "Transporter Tab",
+  "message.transporter.control_panel.counter": "Count: %d"
+}
